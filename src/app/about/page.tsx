@@ -1,3 +1,10 @@
+import type { Metadata } from "next";
+import { title } from "process";
+export const metadata: Metadata = {
+  title: "About",
+  description: "Learn more about the author and the purpose of this blog.",
+}
+
 export default function AboutPage() {
   return (
     <div className="max-w-prose m-auto space-y-3">
